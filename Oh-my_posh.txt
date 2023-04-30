@@ -8,3 +8,8 @@ Get-PoshThemes // lista todos os temas (link:https://ohmyposh.dev/docs/themes)
 """
 outra forma de alterar o tema é criando um arquivo 
 """
+codigos extras (terminal como adiminstrador):
+	Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+	Install-Module PSReadLine -Force
+	Set-PSReadLineOption -PredictionSource History //caso der erro feche o terminal e abra novamente como adiminstrador
+	Set-PSReadLineOption -PredictionViewStyle ListView
